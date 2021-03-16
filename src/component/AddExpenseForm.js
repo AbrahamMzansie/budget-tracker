@@ -27,6 +27,7 @@ const AddExpenseForm = () => {
           Expense Name
         </label>
         <input
+        required
           value={name}
           onChange={(e) => setName(e.target.value)}
           type="text"
@@ -40,6 +41,7 @@ const AddExpenseForm = () => {
           Expense Cost
         </label>
         <input
+        required
           value={cost}
           onChange={(e) => setCost(e.target.value)}
           type="number"
