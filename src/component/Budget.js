@@ -1,6 +1,6 @@
 import React , {useContext} from "react";
 import {AppContext} from "../context/AppContext";
-import NumberFormat from 'react-number-format';
+
 
 const Budget = () => {
   const {budget} = useContext(AppContext)
